@@ -3,19 +3,71 @@
     <title>
         Morgenrot
     </title>
+    <link rel="icon" type="image/x-icon" href="public/morgenrot_logo_icon.jpg">
+    <style>
+        .footer {
+            position: fixed;
+            text-align: center;
+            bottom: 10px;
+            width: 100%;
+            color: whitesmoke;
+        }
+
+        .red {
+            color: darkred;
+        }
+
+        .play-logo {
+            width: 40px;
+            height: 40px;
+            margin: -7px;
+        }
+
+        body {
+            background-image: url('public/morgenrot_spawn_night_cropped_2x3.png');
+        }
+
+        a:link {
+            color: navajowhite;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<h1>
-    This is a private Minecraft modded server 'Morgenrot'.
+<h1 class="red" style="text-align: center">
+    Morgenrot
 </h1>
-<ul>
-    <li>Feel free to <a href="https://client.morgenrot.sonntag.nrw/download/morgenrot.zip">download the Forge modpack</a> manually.</li>
-    <li>Or use the <a href="https://www.technicpack.net/modpack/morgenrot">technic launcher</a>.</li>
-</ul>
 <br>
 <br>
-<h3>
-    <a href="https://github.com/FallenAngel666/morgenrot-client">GitHub Repository</a>
-</h3>
 </body>
+<footer>
+    <div class="footer">
+        <h1><img class="play-logo" src="public/morgenrot_logo_icon.jpg" alt="Morgenrot logo"> Play</h1>
+        <p><a href="https://www.technicpack.net/modpack/morgenrot">Technic launcher</a></p>
+        <p><a href="https://client.morgenrot.sonntag.nrw/download/morgenrot.zip">Download Modpack zip file</a></p>
+        <p style="font-size: small"><i>* Choose one option</i></p>
+        <br>
+        <p><a href="https://github.com/FallenAngel666/morgenrot-client">GitHub</a></p>
+        <p>Logo designed by <a href="https://www.vecteezy.com/members/ekozero7">Ekozero7</a> on vecteezy.com.</p>
+    </div>
+</footer>
 </html>
